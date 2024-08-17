@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tweepy = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+web3 = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
